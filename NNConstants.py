@@ -1,0 +1,14 @@
+TRAIN_IMAGE_FILE = "train_image.csv"
+TRAIN_LABEL_FILE = "train_label.csv"
+TEST_IMAGE_FILE = "test_image.csv"
+TEST_LABEL_FILE = "test_label.csv"
+
+TEST_PREDICTIONS_FILE = "test_predictions.csv"
+
+NUM_CLASSES = 10
+
+MIN_INIT_WEIGHT = -0.05
+MAX_INIT_WEIGHT = 0.05
+
+DEFAULT_LEARNING_RATE = 0.1
+DEFAULT_BATCH_SIZE = 128
